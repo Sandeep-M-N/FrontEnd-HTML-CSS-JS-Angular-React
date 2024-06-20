@@ -1,0 +1,73 @@
+body{
+    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important
+    
+  }
+  .main{
+    height: 142px;
+  }
+  .website{
+      background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important
+  }
+  .logo{
+      border-radius:50%;
+  }
+  .heading{
+      font-size: 45px;
+      font-style: revert-layer;
+      font-weight: 600;
+      text-shadow: -5px 2px 13px azure;
+  }
+  .navigation-design{
+      color: azure;
+      font-size: 28px;
+      padding-right: 109px;
+      text-shadow: -5px 2px 13px azure;
+  }
+  .carousel-height{
+    height: 250px;
+  }
+  .jwl-model{
+    width: 459px;
+    height: 368px;
+    border-radius: 90px;
+  }
+  .text-message{
+    color: aliceblue;
+    font-size: 49px;
+    font-weight: 500;
+  }
+  .promises{
+    color:aliceblue;
+  }
+  .cr{
+    color:aliceblue;
+    font-size: 34px;
+  }
+  .img-promises{
+    border-radius: 50%;
+  }
+  .promises-message{
+    color: aliceblue;
+    font-size: 42px;
+    font-weight: 400;
+  }
+  /*this is about pagg*/
+  .about{
+    height: 512px;
+  }
+  .about-us{
+    color:aliceblue;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: -5px 2px 13px azure;
+  }
+  .about-brief{
+    color:aliceblue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .card-img-top{
+    height: 200px;
+  }
