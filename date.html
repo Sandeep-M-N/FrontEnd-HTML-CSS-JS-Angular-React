@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #d10{
+        
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    border: 2px solid black;
+    width: 300px;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+    color: yellowgreen;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 600;
+    background-color: palegoldenrod;
+    box-shadow: 6px 61px 74px black;
+    }
+    center{
+        margin-top: 232px;
+    }
+</style>
+<body>
+
+
+
+    <center>
+    <div id="d10"></div>
+    </center>
+    <script>
+        function myclock(){
+        let mytime = new Date();
+        document.getElementById("d10").innerHTML=mytime.toLocaleTimeString();
+        }
+    
+        setInterval(myclock,1000);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let data=prompt("enter your name");
+        
+        let vowel=['a','e','i','o','u'];
+        document.write(data);
+        for(let i=0;i<vowel.length;i++){
+            if(vowel[i]===data){
+                document.write(data + "is vowel");
+                break;
+            }
+            else{
+                document.write(data+"is consonent");
+                break;
+            }
+        }
+    </script>
+</body>
+</html>

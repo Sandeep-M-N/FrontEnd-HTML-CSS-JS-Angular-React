@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        // object data type  
+        // let pesrson={
+        //     id:101,
+        //     name:"suresh",
+        //     contact:8610036988,
+        //     address:{
+        //         city:"chennai",
+        //         pin:600042,
+        //         state:"tamil nadu"
+        //     },
+        //     details:function(){
+        //         return `id :${this.id} name:${this.name} contact:${this.contact}`
+        //     }
+        // };
+        // document.write(`id:${pesrson.id} Name :${pesrson.name} contact :${pesrson.contact} address:${pesrson.address.city}`);
+        // document.write("<br>");
+        // document.write(pesrson.details());
+
+        let emp =[
+            {id:1,name:"sursh",gender:"male"},
+            {id:2,name:"ram",gender:"male"},
+            {id:3,name:"shyam",gender:"male"},
+            {id:4,name:"sura",gender:"male"}
+        ]
+        
+            // for(details of emp){
+            //     document.write(` id :${details.id} name : ${details.name} gender :${details.gender}`);
+
+            // }
+            document.write("<br>")
+            for(let i=0;i<emp.length;i++){
+               document.write(`id :${emp[i].id} name : ${emp[i].name} gender :${emp[i].gender}`);
+               document.write("<br>");
+            }
+        
+    </script>
+</body>
+</html>
