@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+    let date = new Date();
+    document.write(`<h1> ${date} </h1>`);
+    let day_finder= date.getDay();
+    let day=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+    document.write(`<h1> ${day[day_finder]} </h1>`);
+    let month_finder=date.getMonth();
+    let month=["january","febuarary","march","april","may","june","july","august","september","october","november","december"];
+    document.write(`<h1> ${month[month_finder]}</h1>`);
+
+
+    </script>
+</body>
+</html>

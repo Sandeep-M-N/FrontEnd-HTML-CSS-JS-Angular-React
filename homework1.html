@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            height: 400px;
+            width: 800px;
+            border: 2px solid black;
+            position: relative;
+        }
+        .tleft{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .tright{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .tcenter{
+            position: absolute;
+            top: 180px;
+            left: 367px;
+        }
+        .bleft{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+        .bright{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="tleft">top-left</div>
+        <div class="tright">top-right</div>
+        <div class="tcenter">center</div>
+        <div class="bleft">bottom-left</div>
+        <div class="bright">bottom-right</div>
+    </div>
+</body>
+</html>
